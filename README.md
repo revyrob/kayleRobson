@@ -1,5 +1,4 @@
-# kaylerobson
-Personnel Website.  Learn all about me!
+
 # Kayle Robson
 Personnel Website to learn about me, my projects, Hackathons and more!
 
