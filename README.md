@@ -8,7 +8,7 @@ Personnel Website to learn about me, my projects, Hackathons and more!
 <li>Bootstrap</li>
 
 <h2>Live Version</h2>
-URL: <a href="">https://kaylerobson.com/</a>
+URL: <a href="https://kaylerobson.com">https://kaylerobson.com</a>
 
 <h3>Author</h3>
 <ul>
