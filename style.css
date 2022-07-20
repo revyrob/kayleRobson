@@ -6,20 +6,20 @@ body {
     font-family: 'Josefin Sans', sans-serif;
   }
   
-  #intro {
+  .intro {
     padding-top: 45px;
     background-image: url(images/winter-theo-eilertsen.jpg);
     background-size:cover;
   }
   
-  #mainNavbar {
+  .mainNavbar {
     font-size: 1.5rem;
     font-weight:100;
     padding: 25px;
     background-color: rgb(230, 230, 230);
   }
   
-  #mainNavbar .nav-link:hover {
+  .mainNavbar .nav-link:hover {
     color: #e66465;
   }
   
@@ -103,14 +103,7 @@ body {
     transition: 0.75s;
   }
   
-  footer a:hover {
-    color:  yellow;
-    text-decoration: none;
-  }
   
-  footer a {
-    color: black;
-  }
   
   .about {
     background-color: black;
@@ -121,7 +114,7 @@ body {
     line-height: 2em;
   }
   
-  #kayle {
+  .kayle {
     width: 150px;
     border-radius: 50%;
     
@@ -190,16 +183,6 @@ body {
     width: 200px;
   }
   
-  footer{
-    background: -webkit-linear-gradient(#9198e5, #e66465);
-    color: whitesmoke;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly, space-between;
-    border-bottom: 5px solid black;
-  }
-  
   @media (max-width: 768px) {
     .banner h1 {
     font-size: 4em;
@@ -210,7 +193,7 @@ body {
     p {
       font-size: 1em;
     }
-    #kayle {
+    .kayle {
       align-content: left;
     }
     #about {
@@ -253,4 +236,48 @@ body {
   .seperate {
       border-top: 1px whitesmoke solid;
       padding: 25px;
+  }
+
+  /* footer css */
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__card {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    text-align: left;
+  }
+  .footer__header {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .footer-icon {
+    height: 10vh;
+  }
+  .footer--social {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__copy {
+    justify-content: center;
+  }
+  footer a:hover {
+    border-bottom: 2px solid yellow;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  footer a {
+    color: whitesmoke;
+  }
+  footer{
+    background: -webkit-linear-gradient(#9198e5, #e66465);
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    border-bottom: 5px solid black;
   }

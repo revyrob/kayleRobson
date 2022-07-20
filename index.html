@@ -6,41 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayle Robson</title>
-
-    <meta name="description" content="student web developer">
-
+    
+    <meta name="description" content="Enthusiast Student Software Engineer">
+    <meta name="author" content="Kayle Robson">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Josefin+Sans&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    
 </head>
 
 <body>
     <!-- Nav bar-->
-    <nav id='mainNavbar' class='navbar sticky-top navbar-light navbar-expand-md py-0'>
-        <a href="index.html" class="navbar-brand">HOME</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class='navbar-nav'>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">ABOUT</a>
-                </li>
-            </ul>
-            <ul class='navbar-nav'>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">PROJECTS</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <section id="intro">
+    <header>
+        <nav class='mainNavbar navbar sticky-top navbar-light navbar-expand-md py-0'>
+            <a href="index.html" class="navbar-brand">HOME</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class='navbar-nav'>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                </ul>
+                <ul class='navbar-nav'>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="intro">
         <div class="banner">
             <h1> Bonjour!
                 <br>I am Kayle Robson
@@ -49,7 +51,7 @@
         </div>
         <div class="contact" id="contact">
             <div class="card-container">
-
+                
                 <div class="info">
                     <h3>
                         British Columbia, Canada
@@ -69,137 +71,143 @@
                     <h3>Future Software Engineer | Mountain Enthusiast | Involved Citizen</h3>
                 </div>
                 <div class='col-s-6 col-4'>
-                    <span><img src="images/kayle.jpg" id="kayle" alt="Kayle Robson"></span>
+                    <span><img src="images/kayle.jpg" class="kayle" alt="Kayle Robson"></span>
                 </div>
             </div>
             <br>
-            <p>I enjoy problem solving, learning, and idea development. I am a creative person who loves
-                to create new projects and engage with
-                others. I have been self-learning in Web Development over the last two years and this September I completed my first
-                year in Computing Science at the Thompson River University.  
+            <p>I am a projected oriented person who enjoys challenges.  In the last two years I started programming and found it suits my style of continual 
+                learning and ability to touch upon many different sectors.  I have launched a handful of  websites and worked remotely on Hackathons.   
+                I am currently completing a Web Development Bootcamp.  My past work experiences show that I am adaptable and dynamic.
             </p>
-
-            <p>During the summer months I will be taking a Web Development Bootcamp with 
-                <a href="https://brainstation.io/course/online/remote-web-development-bootcamp">Brainstation</a>.</p>
-
-            <p>Previously to entering school last September I lived in France for four years and fell in love with Serre Chevalier.  
-                To develop my skills in programming and enjoy the area around me I created 
-                <a href="https://vtt-serre-che-test.herokuapp.com/" target="_blank">Bike Serre Chevalier</a>,
-                a bike web application because I found that the bike trails around Serre Chevalier
-                were poorly communicated. I built Bike Serre Chevalier with node.js and QGIS.
-                I recreated Bike Serre Chevalier into <a href="http://www.bikebriancon.fr" target="_blank">Bike
-                    Briançon</a> because I wanted to rebrand it, host it from my Github, and work
-                on learning new languages.  Bike Briançon was built using HTML, Bootstrap,
-                QGIS, and Javascript. 
-                I put myself out in the bike community, speaking with biking guides, collecting
-                trail data which I rode, and data scraping trail data from existing sites. 
-            </p>
-
-            <p>I found my artistic side with <a href="https://www.brianconfantomes.com" target="_blank">Briançon
-                    Fantômes</a> by creating a french theatre street show in the summer of 2020, while I was living in
-                Briançon, France. It evolved into an audio tour (in French and English).</p>
-
-            <p>I have also participated in two Hackathons. The projects are linked below.</p>
-        </div>
-    </section>
-
-    <section class="projects" id="projects">
-        <h2>PROJECTS</h2>
-
-        <h3>Discover my work</h3>
-
-        <div class="card-container">
-
-            <div class="card-white">
-                <img src="images/website.png" alt="Bussiere les Nonains">
-                <h4>Chateau de Bussiere</h4>
+            
+            <p>I am currently completing a Web Development Bootcamp with 
+                <a href="https://brainstation.io/course/online/remote-web-development-bootcamp" target="_blank">Brainstation</a>.</p>
                 
-                <button class="btn-pink" onclick="location.href='https://bussiere-les-nonains.fr'"
+                <p>My journey towards Software Engineering began seven years ago.  I knew I needed a change and I was keen to study Geographic Information Systems.  
+                    Yet, my plans didn’t move in a straight line since we sold a business and had two more children.  As I was waiting to start the program a friend 
+                    suggested I build a project in GIS.  While building my first project <a href="https://bikebriancon.fr" target="_blank">Bike Briancon</a>. I 
+                    discovered computer  programming.  I enjoyed how 
+                    I was able to create and build my ideas out on paper and then build them with code.  At the time I was living in France and was passionate about 
+                    the town I was living in and created a Walking Theater Show website which I later turned into an Audio Theater Tour 
+                    <a href="https://brianconfantomes.com">Briancon Fantomes</a>.  
+                    From there I participated in Hackathons, helped friends with their websites, built websites for my family, and followed along with online courses.  
+                    This last year I finished my first year of a Computing Science Degree.  The program was online and self-study, which meant no student interaction.  
+                    did learn some background understanding of computers, a few different languages,  and discrete mathematics but the course itself was lacking in 
+                    materials and interactions.  I networked through some Canadian Computer Science students and I found a bootcamp student whom I met for dinner and 
+                    asked him questions about his own journey.  That brings me to where I am now!
+                </p>
+            </div>
+        </section>
+        
+        <section class="projects" id="projects">
+            <h2>PROJECTS</h2>
+            
+            <h3>Discover my work</h3>
+            
+            <div class="card-container">
+                
+                <div class="card-white">
+                    <img src="images/website.png" alt="Bussiere les Nonains">
+                    <h4>Chateau de Bussiere</h4>
+                    
+                    <button class="btn-pink" onclick="location.href='https://bussiere-les-nonains.fr'"
                     type="button">
                     Learn more</button>
-            </div>
-
-            <div class="card-white">
-                <img src="images/screenshot_bike_node.png" alt="Bike Serre Chevalier">
-                <h4>Bike Serre Chevalier</h4>
-                <h5>Version 1</h5>
-                <button class="btn-pink" onclick="location.href='https://vtt-serre-che-test.herokuapp.com/'"
+                </div>
+                
+                <div class="card-white">
+                    <img src="images/screenshot_bike_node.png" alt="Bike Serre Chevalier">
+                    <h4>Bike Serre Chevalier</h4>
+                    <h5>Version 1</h5>
+                    <button class="btn-pink" onclick="location.href='https://vtt-serre-che-test.herokuapp.com/'"
                     type="button">
                     Learn more</button>
-            </div>
-
-            <div class="card-white">
-                <img src="images/screenshot_bike.png" alt="Bike Briançon">
-                <h4>Bike Briançon</h4>
-                <h5>Version 2</h5>
-                <button class="btn-pink" onclick="location.href='http://bikebriancon.fr'" type="button">
-                    Learn more</button>
-            </div>
-
-            <div class="card-white">
-                <img src="images/screenshot_fantomes.png" alt="Briancon Fantomes">
-                <h4>Briançon Fantômes</h4>
-                <button class="btn-pink" onclick="location.href='http://www.brianconfantomes.com'" type="button">
-                    Learn more</button>
-            </div>
-
-            <div class="card-white">
-                <img src="images/github.jpg" alt="Github">
-                <h4>Github</h4>
-                <button class="btn-pink" onclick="location.href='http://github.com/revyrob/'" type="button">
-                    Learn more</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="hackathon">
-        <h2>HACKATHONS</h2>
-        <div class="seperate">
-            <h3>Eco Hackathon</h3>
-            <img src="images/Eco-certificate.png" alt="certification Eco Hackathon">
-            <p><a href="https://github.com/revyrob/powerjuice-1">Operation MotherEarth</a> was built within 3 days using
-                React Native. It is an educational mobile application to
-                educate about electronic waste and to inform users where and how they can recycle their electronic
-                waste. My team was made up of myself and two Belarusians (programmer and graphic designer) since it was
-                a Hackathon located in
-                Belarus.
-            </p>
-        </div>
-
-        <div class="seperate">
-            <h3>Hackon 2.0</h3>
-            <img src="images/hackon2.jpg" alt="certification hackon 2.0">
-            <p><a href="https://eureka-hackon.herokuapp.com/">Eureka</a> is a web application for mental health. Built
-                within 54hrs using Node.js. The Hackathon was located in India and the team consisted of
-                myself, a programmer, and a project manager. </p>
-        </div>
-    </section>
-
-    <footer class="card-container">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="mailhandler.php">Contact</a>
-        <a href="https://www.linkedin.com/in/kayle-robson-1723a595/" target="_blank">LinkedIn</a>
-        <span>© 2020 Kayle Robson</span>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
-</body>
-
-</html>
+                </div>
+                
+                <div class="card-white">
+                    <img src="images/screenshot_bike.png" alt="Bike Briançon">
+                    <h4>Bike Briançon</h4>
+                    <h5>Version 2</h5>
+                    <button class="btn-pink" onclick="location.href='https://bikebriancon.fr'" type="button">
+                        Learn more</button>
+                    </div>
+                    
+                    <div class="card-white">
+                        <img src="images/screenshot_fantomes.png" alt="Briancon Fantomes">
+                        <h4>Briançon Fantômes</h4>
+                        <button class="btn-pink" onclick="location.href='https://www.brianconfantomes.com'" type="button">
+                            Learn more</button>
+                        </div>
+                        
+                        <div class="card-white">
+                            <img src="images/github.jpg" alt="Github">
+                            <h4>Github</h4>
+                            <button class="btn-pink" onclick="location.href='https://github.com/revyrob/'" type="button">
+                                Learn more</button>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="hackathon">
+                        <h2>HACKATHONS</h2>
+                        <div class="seperate">
+                            <h3>Eco Hackathon</h3>
+                            <img src="images/Eco-certificate.png" alt="certification Eco Hackathon">
+                            <p><a href="https://github.com/revyrob/powerjuice-1">Operation MotherEarth</a> was built within 3 days using
+                                React Native. It is an educational mobile application to
+                                educate about electronic waste and to inform users where and how they can recycle their electronic
+                                waste. My team was made up of myself and two Belarusians (programmer and graphic designer) since it was
+                                a Hackathon located in
+                                Belarus.
+                            </p>
+                        </div>
+                        
+                        <div class="seperate">
+                            <h3>Hackon 2.0</h3>
+                            <img src="images/hackon2.jpg" alt="certification hackon 2.0">
+                            <p><a href="https://eureka-hackon.herokuapp.com/">Eureka</a> is a web application for mental health. Built
+                                within 54hrs using Node.js. The Hackathon was located in India and the team consisted of
+                                myself, a programmer, and a project manager. </p>
+                            </div>
+                        </section>
+                        
+                        <footer class="footer">
+                            <div class="footer__container">
+                                <div class="footer__card">
+                                    <div class="footer__header">Contact</div>
+                                    <div class="footer__info">Rossland, BC</div>
+                                    <div class="footer__info">Canada</div>
+                                    <div class="footer__info"><a href="mailhandler.php">&#x2709</a></div>
+                                </div>
+                                <div class="footer__card">
+                                    <div class="footer__header">Social</div>
+                                    <div class="footer--social">
+                                        <a href="https://www.linkedin.com/in/kayle-robson-1723a595/" target="_blank"><img class="footer-icon" src="./images/icon-linkedin.png"></a>
+                                        <a href="https://github.com/revyrob" target="_blank"><img class="footer-icon" src="./images/icon-github.png"></a>
+                                        <a href="https://www.instagram.com/klee.robby/" target="_blank"><img class="footer-icon" src="./images/icon-instagram.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__copy">© 2020 Kayle Robson</div>
+                        </footer>
+                        
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                        crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                        crossorigin="anonymous"></script>
+                        <script>
+                            $(function () {
+                                $(document).scroll(function () {
+                                    var $nav = $("#mainNavbar");
+                                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                                });
+                            });
+                        </script>
+                    </body>
+                    
+                    </html>
