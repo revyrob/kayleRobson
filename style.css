@@ -39,7 +39,7 @@ body {
   
   h1 {
     background: -webkit-linear-gradient(#9198e5, #e66465);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 6em;
