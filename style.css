@@ -18,10 +18,19 @@ body {
     padding: 25px;
     background-color: rgb(230, 230, 230);
   }
+
+  /* .navbar-nav {
+    transition: .2s;
+
+  } */
   
   .mainNavbar .nav-link:hover {
     color: #e66465;
   }
+
+  /* .nav-link:hover {
+    font-size: 2rem;
+  } */
   
   .banner{
     background-size: cover;
